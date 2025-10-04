@@ -1,6 +1,6 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 
-const UseFetch = (url) => {
+const useFetch = (url) => {
     //Use state variable to store the data
     const [data,setData] =useState();
 //Use useEffect to fetch data from the url
@@ -11,4 +11,4 @@ const UseFetch = (url) => {
     return [data]
 }
 
-export default UseFetch
+export default useFetch
