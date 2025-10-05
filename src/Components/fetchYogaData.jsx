@@ -2,7 +2,7 @@ import React from 'react';
 import useFetch from './UseFetch';
 import './FetchData.css';
 
-const FetchYogaData = () => {
+const fetchYogaData = () => {
   // Use the custom hook to fetch data from the Yoga API.
   const [data] = useFetch('https://api.npoint.io/4459a9a10e43812e1152');
   console.log(data);
@@ -21,4 +21,4 @@ const FetchYogaData = () => {
   );
 };
 
-export default FetchYogaData;
+export default fetchYogaData;
